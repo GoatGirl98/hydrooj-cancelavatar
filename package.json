@@ -1,0 +1,25 @@
+{
+  "name": "hydrooj-cancelavatar",
+  "version": "1.0.0",
+  "description": "A Simple Plugin for HydroOJ, Cancelling the Upload Function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15921483570/hydrooj-cancelavatar.git"
+  },
+  "keywords": [
+    "hydrooj",
+    "avartar"
+  ],
+  "author": "Bowen404",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/15921483570/hydrooj-cancelavatar/issues"
+  },
+  "homepage": "https://github.com/15921483570/hydrooj-cancelavatar/#readme"
+}
+
+
