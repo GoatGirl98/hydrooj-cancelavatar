@@ -1,8 +1,7 @@
 import {NamedPage, addPage} from '@hydrooj/ui-default';
 addPage (new NamedPage ('home_account', () => {
   const el = document.createElement ('style');
-  //el.innerHTML = `*[data-type="upload"] { display: none !important; } .change-avatar  { display: none !important;  }`;
-  el.innerHTML = `*[data-type="upload"] { display: none !important; } `; // 去掉个人简介中的上传图片图标
+  el.innerHTML = `*[data-type="upload"] { display: none !important; } `; // remove upload icon in the profile editor below
   document.head.appendChild (el);
 
 
@@ -14,7 +13,6 @@ addPage (new NamedPage ('home_account', () => {
 		sel.options.remove(0); 
 		var plh = document.getElementsByClassName("textbox")[0];
 		plh.placeholder = "QQ Number";
-//		console.log(sel.options[0].value);
 	});
 
 }));
