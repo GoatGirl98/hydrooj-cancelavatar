@@ -9,10 +9,6 @@ addPage (new NamedPage ('home_account', () => {
 	btn.addEventListener('click', function (e){
 		var sel = document.getElementById("type");
 		sel.options.remove(3); 
-		sel.options.remove(0); 
-		sel.options.remove(0); 
-		var plh = document.getElementsByClassName("textbox")[0];
-		plh.placeholder = "QQ Number";
 	});
 
 }));
