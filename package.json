@@ -1,0 +1,8 @@
+{
+  "name": "hydrooj-cancelavatar",
+  "version": "1.0.0",
+  "description": "Hydro Cancelupload avatar",
+  "main": "index.ts",
+  "author": "GoatGirl98",
+  "license": "AGPL-3.0"
+}
